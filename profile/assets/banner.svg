@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Bruno Bola · BolaLabs">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Bruno Silva Marques · BolaLabs">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07090f"/>
@@ -50,8 +50,8 @@
 
   <g class="t">
     <text x="72" y="92" fill="#8b93a7" font-size="16" letter-spacing="4" font-weight="600">BOLALABS · PORTFOLIO</text>
-    <text x="70" y="158" fill="#ffffff" font-size="64" font-weight="800" letter-spacing="-1.5">Bruno Bola</text>
-    <text x="72" y="202" fill="url(#gold)" font-size="24" font-weight="600">Enterprise software · AI agents · Developer tools</text>
-    <text x="72" y="250" fill="#8b93a7" font-size="17" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">$ build --what-matters --ship-it<tspan class="blink" fill="#f5b93d"> ▍</tspan></text>
+    <text x="70" y="158" fill="#ffffff" font-size="56" font-weight="800" letter-spacing="-1.5">Bruno Silva Marques</text>
+    <text x="72" y="202" fill="url(#gold)" font-size="24" font-weight="600">Integration · Automation · Applied AI</text>
+    <text x="72" y="250" fill="#8b93a7" font-size="17" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">$ since 2007 --in-production --not-in-slides<tspan class="blink" fill="#f5b93d"> ▍</tspan></text>
   </g>
 </svg>
