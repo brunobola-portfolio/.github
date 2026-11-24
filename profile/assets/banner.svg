@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Bruno Bola · BolaLabs">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07090f"/>
+      <stop offset="0.55" stop-color="#0d1222"/>
+      <stop offset="1" stop-color="#140f22"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f7d774"/>
+      <stop offset="0.5" stop-color="#f5b93d"/>
+      <stop offset="1" stop-color="#e8893a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5b93d" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f5b93d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6d5cff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6d5cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <style>
+      .t{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+      .pulse{animation:p 6s ease-in-out infinite;transform-origin:960px 160px}
+      .pulse2{animation:p 8s ease-in-out infinite reverse;transform-origin:220px 280px}
+      .scan{animation:s 7s linear infinite}
+      .blink{animation:b 1.1s steps(1) infinite}
+      @keyframes p{0%,100%{opacity:.75;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+      @keyframes s{0%{transform:translateX(-300px)}100%{transform:translateX(1500px)}}
+      @keyframes b{50%{opacity:0}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <circle class="pulse" cx="960" cy="160" r="230" fill="url(#glow)"/>
+  <circle class="pulse2" cx="220" cy="280" r="260" fill="url(#glow2)"/>
+  <rect class="scan" x="0" y="0" width="160" height="320" fill="#ffffff" opacity="0.025"/>
+
+  <!-- lightbulb mark -->
+  <g transform="translate(900 70)">
+    <circle cx="60" cy="72" r="58" fill="none" stroke="url(#gold)" stroke-width="2" stroke-opacity="0.35"/>
+    <path d="M60 30c-22 0-38 17-38 37 0 14 7 23 15 31 5 5 7 10 7 16v6h32v-6c0-6 2-11 7-16 8-8 15-17 15-31 0-20-16-37-38-37z" fill="url(#gold)"/>
+    <rect x="44" y="124" width="32" height="7" rx="3" fill="#c9cfdc"/>
+    <rect x="47" y="134" width="26" height="7" rx="3" fill="#9aa3b5"/>
+    <path d="M50 92l10-14 10 14" fill="none" stroke="#07090f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g class="t">
+    <text x="72" y="92" fill="#8b93a7" font-size="16" letter-spacing="4" font-weight="600">BOLALABS · PORTFOLIO</text>
+    <text x="70" y="158" fill="#ffffff" font-size="64" font-weight="800" letter-spacing="-1.5">Bruno Bola</text>
+    <text x="72" y="202" fill="url(#gold)" font-size="24" font-weight="600">Enterprise software · AI agents · Developer tools</text>
+    <text x="72" y="250" fill="#8b93a7" font-size="17" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">$ build --what-matters --ship-it<tspan class="blink" fill="#f5b93d"> ▍</tspan></text>
+  </g>
+</svg>
